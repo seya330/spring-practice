@@ -1,4 +1,4 @@
-package com.honeybug.springpractice;
+package com.honeybug.springpractice.enums;
 
 public enum PaymentMethod {
 

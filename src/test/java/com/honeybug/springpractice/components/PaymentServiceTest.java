@@ -1,21 +1,18 @@
 package com.honeybug.springpractice.components;
 
-import com.honeybug.springpractice.interfaces.FooInterface;
+import com.honeybug.springpractice.service.PaymentService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.stereotype.Service;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 @SpringBootTest
-class ServiceClassTest {
+class PaymentServiceTest {
 
     @Autowired
-    ServiceClass serviceClass;
+    PaymentService paymentService;
 
     @Test
     void test() {
-        serviceClass.test();
+        paymentService.test();
     }
 }
